@@ -623,3 +623,6 @@ body.lock{
 	bottom: 0;
 	margin: auto;
 }
+.alt-header{
+	display: none;
+}
