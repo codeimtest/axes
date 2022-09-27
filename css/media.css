@@ -1,0 +1,160 @@
+/* === DESKTOP FIRST === */
+
+/* xl <= Extra extra large (xxl) */
+@media (max-width : 1400px) {
+
+}
+
+/* lg <= Extra large (xl) */
+@media (max-width : 1200px) {
+
+}
+
+/* md <= Large (lg) */
+@media (max-width : 992px) {
+	.top-contacts,header{
+		display: none;
+	}
+	.price-widgets{
+		flex-flow: column;
+	}
+	.select-location{
+		text-align: center;
+	}
+	.custom{
+		flex-flow: column;
+	}
+	.custom a{
+		margin-bottom: 10px;
+	}
+	.custom a:last-child{margin-bottom: 0;}
+	.select-location{
+		padding-bottom: 0;
+	}
+	.form-wrap{
+		padding: 0;
+		flex-flow: column;
+	}
+	.contact-slider{
+		width: 100%;
+	}
+	.contact-slider .swiper-button-next{
+		right: 2%;
+	}
+	.contact-slider .swiper-button-prev{
+		left: 2%;
+	}
+	form.form{
+		margin-left: 0;
+		padding: 20px 10px;
+	}
+	.form-input-tripple{
+		flex-flow: column;
+	}
+	.form-input-tripple input{
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	form.form button{
+		margin: auto;
+		width: 100%;
+	}
+	.promo-block{
+		padding: 100px 0 20px!important;
+		font-size: 20px;
+	}
+	.promo-block h2{
+		font-size: 27px;
+	}
+	.f-widgets{
+		flex-flow: column;
+		text-align: center;
+	}
+	.f-contact{
+		width: 100%;
+	}
+	.social-media{
+		margin-top: 0px;
+	}
+	.f-contact p:last-child{
+		margin-bottom: 0;
+	}
+	.f-logo img{
+		margin: auto;
+		display: block;
+		width: 50%;
+		margin-bottom: 20px;
+	}
+	.hero .swiper-slide{
+		min-height: 900px;
+	}
+	.slider-title h2{
+		font-size: 32px;
+	}
+	.slider-title p span{
+		font-size: 16px;
+	}
+	.slider-title p{
+		margin-top: 10px;
+	}
+	.slider-title h4{
+		font-size: 17px;
+		letter-spacing: 0.35em;
+	}
+	.slider-title h3{
+		font-size: 38px;
+	}
+	.price-widget h1{
+		font-size: 28px;
+	}
+}
+
+/* sm <= Medium (md) */
+@media (max-width : 768px) {
+
+}
+
+/* xs <= Small (sm) */
+@media (max-width : 576px) {
+
+}
+
+
+/* === MOBILE FIRST === */
+
+/* Custom (xs) */
+@media (min-width : 0) {
+
+}
+
+/* Small (sm) */
+@media (min-width : 576px) {
+
+}
+
+/* Medium (md) */
+@media (min-width : 768px) {
+
+}
+
+/* Large (lg) */
+@media (min-width : 992px) {
+	.c-widget:last-child{
+		text-align: right;
+	}
+}
+
+/* Extra large (xl) */
+@media (min-width : 1200px) {
+	.text {
+		font-size: 18px;
+	}
+	
+}
+
+/* Extra extra large (xxl) */
+@media (min-width : 1400px) {
+	.text {
+		font-size: 22px;
+	}
+}
