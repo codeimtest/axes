@@ -107,6 +107,9 @@
 	.price-widget h1{
 		font-size: 28px;
 	}
+	.alt-header{
+		display: block;
+	}
 }
 
 /* sm <= Medium (md) */
